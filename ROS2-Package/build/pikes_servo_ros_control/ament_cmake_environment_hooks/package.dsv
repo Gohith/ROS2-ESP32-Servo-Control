@@ -1,0 +1,4 @@
+source;share/pikes_servo_ros_control/local_setup.bash
+source;share/pikes_servo_ros_control/local_setup.dsv
+source;share/pikes_servo_ros_control/local_setup.sh
+source;share/pikes_servo_ros_control/local_setup.zsh

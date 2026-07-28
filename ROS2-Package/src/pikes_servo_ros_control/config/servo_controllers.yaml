@@ -1,0 +1,12 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    servo_controller:
+      type: forward_command_controller/ForwardCommandController
+      joints:
+        - servo_joint
+      interface_name: theta_cmd

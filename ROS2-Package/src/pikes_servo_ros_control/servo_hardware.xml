@@ -1,0 +1,6 @@
+<library path="servo_hardware">
+  <class type="pikes_servo_ros_control::ESP32ServoHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>ESP32 Servo Hardware Interface</description>
+  </class>
+</library>

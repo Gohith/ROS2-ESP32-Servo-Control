@@ -1,0 +1,2 @@
+source;share/pikes_servo_ros_control/environment/ament_prefix_path.sh
+source;share/pikes_servo_ros_control/environment/path.sh

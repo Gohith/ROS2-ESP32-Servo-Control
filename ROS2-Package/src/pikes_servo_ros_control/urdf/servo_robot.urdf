@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot name="pikes_servo_robot">
+
+  <link name="base_link"/>
+
+  <joint name="servo_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="servo_link"/>
+  </joint>
+
+  <link name="servo_link"/>
+
+  <ros2_control name="PikesServoSystem" type="system">
+    <hardware>
+      <plugin>pikes_servo_ros_control::ESP32ServoHardware</plugin>
+    </hardware>
+
+    <joint name="servo_joint">
+      <command_interface name="theta_cmd"/>
+      <command_interface name="speed_cmd"/>
+      <command_interface name="direction_cmd"/>
+      <state_interface name="angle"/>
+      <state_interface name="speed"/>
+    </joint>
+
+  </ros2_control>
+
+</robot>

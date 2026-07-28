@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (pikes_servo_ros_control) JobQueued: {'identifier': 'pikes_servo_ros_control', 'dependencies': OrderedDict()}
+[0.000674] (pikes_servo_ros_control) JobStarted: {'identifier': 'pikes_servo_ros_control'}
+[0.005915] (pikes_servo_ros_control) JobProgress: {'identifier': 'pikes_servo_ros_control', 'progress': 'cmake'}
+[0.006719] (pikes_servo_ros_control) JobProgress: {'identifier': 'pikes_servo_ros_control', 'progress': 'build'}
+[0.007491] (pikes_servo_ros_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control', '--', '-j12', '-l12'], 'cwd': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'g7', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/g7', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src', 'TERM_PROGRAM_VERSION': '1.129.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2557', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3019', 'BUNDLED_DEBUGPY_PATH': '/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5828', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'g7', 'JOURNAL_STREAM': '9:16381', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'g7', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/g7/.local/bin:/home/g7/.local/bin:/home/g7/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/g7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/g7-7500:@/tmp/.ICE-unix/2984,unix/g7-7500:/tmp/.ICE-unix/2984', 'INVOCATION_ID': 'e38e31b172af4ddd8fee0bbf38041551', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c2750c2a727045e6.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/g7/.config/Code/User/workspaceStorage/4eca140714b7db596c38c25e78d02268/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9c2ca1170c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.032501] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099874] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.220568] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.247002] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.255092] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.266936] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.280609] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300219] (-) TimerEvent: {}
+[0.342678] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.343801] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400312] (-) TimerEvent: {}
+[0.401290] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.482240] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[0.488636] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found hardware_interface: 4.45.2 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[0.500434] (-) TimerEvent: {}
+[0.600686] (-) TimerEvent: {}
+[0.700997] (-) TimerEvent: {}
+[0.717878] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)\n'}
+[0.745627] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found PahoMqttC: /usr/lib/x86_64-linux-gnu/libpaho-mqtt3as.so  \n'}
+[0.746851] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.750064] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.801116] (-) TimerEvent: {}
+[0.841936] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.842226] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/include\n'}
+[0.842304] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.842747] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.842835] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.843348] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.843680] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.844631] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.844737] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.845107] (pikes_servo_ros_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.846150] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.881712] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.886951] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Build files have been written to: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control\n'}
+[0.901249] (-) TimerEvent: {}
+[0.916406] (pikes_servo_ros_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/src/keyboard_controller.cpp.o\x1b[0m\n'}
+[0.916556] (pikes_servo_ros_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/servo_hardware.dir/src/servo_hardware.cpp.o\x1b[0m\n'}
+[1.001375] (-) TimerEvent: {}
+[1.101637] (-) TimerEvent: {}
+[1.201991] (-) TimerEvent: {}
+[1.302310] (-) TimerEvent: {}
+[1.402633] (-) TimerEvent: {}
+[1.502937] (-) TimerEvent: {}
+[1.603293] (-) TimerEvent: {}
+[1.703643] (-) TimerEvent: {}
+[1.803956] (-) TimerEvent: {}
+[1.904372] (-) TimerEvent: {}
+[2.004913] (-) TimerEvent: {}
+[2.105240] (-) TimerEvent: {}
+[2.205545] (-) TimerEvent: {}
+[2.305818] (-) TimerEvent: {}
+[2.406099] (-) TimerEvent: {}
+[2.506469] (-) TimerEvent: {}
+[2.606820] (-) TimerEvent: {}
+[2.707220] (-) TimerEvent: {}
+[2.807551] (-) TimerEvent: {}
+[2.907900] (-) TimerEvent: {}
+[3.008274] (-) TimerEvent: {}
+[3.108587] (-) TimerEvent: {}
+[3.208861] (-) TimerEvent: {}
+[3.309157] (-) TimerEvent: {}
+[3.409500] (-) TimerEvent: {}
+[3.509831] (-) TimerEvent: {}
+[3.610311] (-) TimerEvent: {}
+[3.710649] (-) TimerEvent: {}
+[3.758776] (pikes_servo_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn pikes_servo_ros_control::ESP32ServoHardware::\x1b[01;32m\x1b[Kon_init\x1b[m\x1b[K(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.759114] (pikes_servo_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:21:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::\x1b[01;32m\x1b[Kon_init\x1b[m\x1b[K(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.759340] (pikes_servo_ros_control) StderrLine: {'line': b'   21 |   if(\x1b[01;35m\x1b[KSystemInterface::on_init(info)\x1b[m\x1b[K != hardware_interface::CallbackReturn::SUCCESS)\n'}
+[3.759526] (pikes_servo_ros_control) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.759635] (pikes_servo_ros_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18\x1b[m\x1b[K,\n'}
+[3.759741] (pikes_servo_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/include/pikes_servo_ros_control/servo_hardware.hpp:4\x1b[m\x1b[K,\n'}
+[3.759854] (pikes_servo_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[3.759958] (pikes_servo_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.760060] (pikes_servo_ros_control) StderrLine: {'line': b'  140 |   virtual CallbackReturn \x1b[01;36m\x1b[Kon_init\x1b[m\x1b[K(const HardwareInfo & hardware_info);\n'}
+[3.760163] (pikes_servo_ros_control) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.810793] (-) TimerEvent: {}
+[3.911078] (-) TimerEvent: {}
+[4.011404] (-) TimerEvent: {}
+[4.111676] (-) TimerEvent: {}
+[4.211948] (-) TimerEvent: {}
+[4.312238] (-) TimerEvent: {}
+[4.412665] (-) TimerEvent: {}
+[4.512875] (-) TimerEvent: {}
+[4.613206] (-) TimerEvent: {}
+[4.713470] (-) TimerEvent: {}
+[4.813712] (-) TimerEvent: {}
+[4.914041] (-) TimerEvent: {}
+[5.014493] (-) TimerEvent: {}
+[5.114930] (-) TimerEvent: {}
+[5.215251] (-) TimerEvent: {}
+[5.315493] (-) TimerEvent: {}
+[5.415763] (-) TimerEvent: {}
+[5.516052] (-) TimerEvent: {}
+[5.616312] (-) TimerEvent: {}
+[5.716625] (-) TimerEvent: {}
+[5.816926] (-) TimerEvent: {}
+[5.917224] (-) TimerEvent: {}
+[6.017482] (-) TimerEvent: {}
+[6.117735] (-) TimerEvent: {}
+[6.124200] (pikes_servo_ros_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable keyboard_teleop\x1b[0m\n'}
+[6.217828] (-) TimerEvent: {}
+[6.318072] (-) TimerEvent: {}
+[6.347067] (pikes_servo_ros_control) StdoutLine: {'line': b'[ 75%] Built target keyboard_teleop\n'}
+[6.418160] (-) TimerEvent: {}
+[6.518394] (-) TimerEvent: {}
+[6.618619] (-) TimerEvent: {}
+[6.719003] (-) TimerEvent: {}
+[6.819304] (-) TimerEvent: {}
+[6.919617] (-) TimerEvent: {}
+[7.020057] (-) TimerEvent: {}
+[7.120562] (-) TimerEvent: {}
+[7.221026] (-) TimerEvent: {}
+[7.321253] (-) TimerEvent: {}
+[7.421512] (-) TimerEvent: {}
+[7.521770] (-) TimerEvent: {}
+[7.622137] (-) TimerEvent: {}
+[7.722667] (-) TimerEvent: {}
+[7.823019] (-) TimerEvent: {}
+[7.923600] (-) TimerEvent: {}
+[8.023977] (-) TimerEvent: {}
+[8.124419] (-) TimerEvent: {}
+[8.224765] (-) TimerEvent: {}
+[8.325384] (-) TimerEvent: {}
+[8.425839] (-) TimerEvent: {}
+[8.526372] (-) TimerEvent: {}
+[8.626866] (-) TimerEvent: {}
+[8.727307] (-) TimerEvent: {}
+[8.827648] (-) TimerEvent: {}
+[8.928011] (-) TimerEvent: {}
+[9.028323] (-) TimerEvent: {}
+[9.128588] (-) TimerEvent: {}
+[9.228849] (-) TimerEvent: {}
+[9.329092] (-) TimerEvent: {}
+[9.429408] (-) TimerEvent: {}
+[9.529622] (-) TimerEvent: {}
+[9.629910] (-) TimerEvent: {}
+[9.730177] (-) TimerEvent: {}
+[9.830546] (-) TimerEvent: {}
+[9.930791] (-) TimerEvent: {}
+[10.031113] (-) TimerEvent: {}
+[10.131617] (-) TimerEvent: {}
+[10.231925] (-) TimerEvent: {}
+[10.332222] (-) TimerEvent: {}
+[10.432521] (-) TimerEvent: {}
+[10.532758] (-) TimerEvent: {}
+[10.633166] (-) TimerEvent: {}
+[10.733806] (-) TimerEvent: {}
+[10.834061] (-) TimerEvent: {}
+[10.934365] (-) TimerEvent: {}
+[11.034647] (-) TimerEvent: {}
+[11.134931] (-) TimerEvent: {}
+[11.235232] (-) TimerEvent: {}
+[11.335475] (-) TimerEvent: {}
+[11.435799] (-) TimerEvent: {}
+[11.536139] (-) TimerEvent: {}
+[11.636605] (-) TimerEvent: {}
+[11.737024] (-) TimerEvent: {}
+[11.837273] (-) TimerEvent: {}
+[11.937635] (-) TimerEvent: {}
+[12.038307] (-) TimerEvent: {}
+[12.048428] (pikes_servo_ros_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libservo_hardware.so\x1b[0m\n'}
+[12.138523] (-) TimerEvent: {}
+[12.239143] (-) TimerEvent: {}
+[12.339843] (-) TimerEvent: {}
+[12.440543] (-) TimerEvent: {}
+[12.540967] (-) TimerEvent: {}
+[12.604024] (pikes_servo_ros_control) StdoutLine: {'line': b'[100%] Built target servo_hardware\n'}
+[12.611848] (pikes_servo_ros_control) CommandEnded: {'returncode': 0}
+[12.612481] (pikes_servo_ros_control) JobProgress: {'identifier': 'pikes_servo_ros_control', 'progress': 'install'}
+[12.618588] (pikes_servo_ros_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control'], 'cwd': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'g7', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/g7', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src', 'TERM_PROGRAM_VERSION': '1.129.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2557', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3019', 'BUNDLED_DEBUGPY_PATH': '/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5828', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'g7', 'JOURNAL_STREAM': '9:16381', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'g7', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/g7/.local/bin:/home/g7/.local/bin:/home/g7/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/g7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/g7-7500:@/tmp/.ICE-unix/2984,unix/g7-7500:/tmp/.ICE-unix/2984', 'INVOCATION_ID': 'e38e31b172af4ddd8fee0bbf38041551', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/g7/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c2750c2a727045e6.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/g7/.config/Code/User/workspaceStorage/4eca140714b7db596c38c25e78d02268/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9c2ca1170c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.625336] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.625485] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/servo_hardware.xml\n'}
+[12.625592] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/pikes_servo_ros_control/keyboard_teleop\n'}
+[12.626662] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/pikes_servo_ros_control/keyboard_teleop" to ""\n'}
+[12.626815] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include/\n'}
+[12.626907] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include//pikes_servo_ros_control\n'}
+[12.626979] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include//pikes_servo_ros_control/servo_hardware.hpp\n'}
+[12.627049] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/libservo_hardware.so\n'}
+[12.631950] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/libservo_hardware.so" to ""\n'}
+[12.632165] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/servo_hardware.xml\n'}
+[12.632376] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/launch\n'}
+[12.632486] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/launch/servo_control.launch.py\n'}
+[12.632572] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/urdf\n'}
+[12.632651] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/urdf/servo_robot.urdf\n'}
+[12.632743] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/config\n'}
+[12.632861] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/config/servo_controllers.yaml\n'}
+[12.632971] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/package_run_dependencies/pikes_servo_ros_control\n'}
+[12.633060] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/parent_prefix_path/pikes_servo_ros_control\n'}
+[12.633142] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/ament_prefix_path.sh\n'}
+[12.633275] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/ament_prefix_path.dsv\n'}
+[12.633343] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/path.sh\n'}
+[12.633419] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/path.dsv\n'}
+[12.633486] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.bash\n'}
+[12.633552] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.sh\n'}
+[12.633618] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.zsh\n'}
+[12.633683] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.dsv\n'}
+[12.633748] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/package.dsv\n'}
+[12.633817] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/packages/pikes_servo_ros_control\n'}
+[12.633882] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/pikes_servo_ros_control\n'}
+[12.633948] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/cmake/pikes_servo_ros_controlConfig.cmake\n'}
+[12.634015] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/cmake/pikes_servo_ros_controlConfig-version.cmake\n'}
+[12.634104] (pikes_servo_ros_control) StdoutLine: {'line': b'-- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/package.xml\n'}
+[12.634740] (pikes_servo_ros_control) CommandEnded: {'returncode': 0}
+[12.641069] (-) TimerEvent: {}
+[12.653204] (pikes_servo_ros_control) JobEnded: {'identifier': 'pikes_servo_ros_control', 'rc': 0}
+[12.653939] (-) EventReactorShutdown: {}

@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control -- -j12 -l12
+[0.032s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.221s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.246s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.255s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.342s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.343s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.482s] -- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.488s] -- Found hardware_interface: 4.45.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.717s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.745s] -- Found PahoMqttC: /usr/lib/x86_64-linux-gnu/libpaho-mqtt3as.so  
+[0.746s] -- Found Threads: TRUE  
+[0.750s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.842s] -- Configured cppcheck include dirs: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/include
+[0.842s] -- Configured cppcheck exclude dirs and/or files: 
+[0.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.842s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.843s] -- Added test 'lint_cmake' to check CMake code style
+[0.843s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.844s] -- Added test 'uncrustify' to check C / C++ code style
+[0.844s] -- Configured uncrustify additional arguments: 
+[0.844s] -- Added test 'xmllint' to check XML markup files
+[0.846s] -- Configuring done (0.8s)
+[0.881s] -- Generating done (0.0s)
+[0.886s] -- Build files have been written to: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control
+[0.916s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/src/keyboard_controller.cpp.o[0m
+[0.916s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_hardware.dir/src/servo_hardware.cpp.o[0m
+[3.758s] [01m[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn pikes_servo_ros_control::ESP32ServoHardware::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[3.759s] [01m[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:21:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.759s]    21 |   if([01;35m[KSystemInterface::on_init(info)[m[K != hardware_interface::CallbackReturn::SUCCESS)
+[3.759s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.759s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[3.759s]                  from [01m[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/include/pikes_servo_ros_control/servo_hardware.hpp:4[m[K,
+[3.759s]                  from [01m[K/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/src/pikes_servo_ros_control/src/servo_hardware.cpp:1[m[K:
+[3.759s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.759s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[3.760s]       |                          [01;36m[K^~~~~~~[m[K
+[6.124s] [ 75%] [32m[1mLinking CXX executable keyboard_teleop[0m
+[6.347s] [ 75%] Built target keyboard_teleop
+[12.048s] [100%] [32m[1mLinking CXX shared library libservo_hardware.so[0m
+[12.603s] [100%] Built target servo_hardware
+[12.611s] Invoked command in '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control -- -j12 -l12
+[12.618s] Invoking command in '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control
+[12.625s] -- Install configuration: ""
+[12.625s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/servo_hardware.xml
+[12.625s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/pikes_servo_ros_control/keyboard_teleop
+[12.626s] -- Set non-toolchain portion of runtime path of "/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/pikes_servo_ros_control/keyboard_teleop" to ""
+[12.626s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include/
+[12.626s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include//pikes_servo_ros_control
+[12.626s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/include//pikes_servo_ros_control/servo_hardware.hpp
+[12.626s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/libservo_hardware.so
+[12.631s] -- Set non-toolchain portion of runtime path of "/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/lib/libservo_hardware.so" to ""
+[12.632s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/servo_hardware.xml
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/launch
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/launch/servo_control.launch.py
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/urdf
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/urdf/servo_robot.urdf
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/config
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/config/servo_controllers.yaml
+[12.632s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/package_run_dependencies/pikes_servo_ros_control
+[12.632s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/parent_prefix_path/pikes_servo_ros_control
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/ament_prefix_path.sh
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/ament_prefix_path.dsv
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/path.sh
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/environment/path.dsv
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.bash
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.sh
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.zsh
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/local_setup.dsv
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/package.dsv
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/packages/pikes_servo_ros_control
+[12.633s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/pikes_servo_ros_control
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/cmake/pikes_servo_ros_controlConfig.cmake
+[12.633s] -- Up-to-date: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/cmake/pikes_servo_ros_controlConfig-version.cmake
+[12.633s] -- Installing: /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/install/pikes_servo_ros_control/share/pikes_servo_ros_control/package.xml
+[12.634s] Invoked command in '/home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/g7/Desktop/ROS2-ESP32-Servo-Control/ROS2-Package/build/pikes_servo_ros_control
