@@ -1,6 +1,6 @@
 # ESP32 Smart Servo (Wokwi Simulation)
 
-## 📖 Overview
+## Overview
 This project implements a **smart servo mechanism** on the **ESP32** using the **Wokwi simulator**.  
 The servo is connected to a gear mechanism that simulates a **door opening/closing system**.  
 
@@ -15,7 +15,7 @@ This sub-task is part of the larger **Robot Servo Control** project.
 
 ---
 
-## ⚙️ Features
+## Features
 - **WiFi setup**: Connects ESP32 to Wokwi-GUEST network.
 - **MQTT integration**: Publishes and subscribes to topics for servo control.
 - **Servo + Gear mechanism**: Simulates door movement with gear ratio.
@@ -25,7 +25,7 @@ This sub-task is part of the larger **Robot Servo Control** project.
 ---
 
 
-## 🧩 System Architecture (Text Diagram)
+## System Architecture (Text Diagram)
 
 ```text
 +-------------------------------------------------------------+
@@ -60,7 +60,7 @@ This sub-task is part of the larger **Robot Servo Control** project.
 +-------------------------------------------------------------+
 ```
 
-## 🛠️ Hardware & Libraries
+## Hardware & Libraries
 - **ESP32** (Wokwi simulation)
 - **Servo motor** (pin 4)
 - **Gear servo motor** (pin 5)
@@ -76,7 +76,7 @@ Libraries used:
 
 ---
 
-## 📡 MQTT Topics
+## MQTT Topics
 **Subscribed topics:**
 - `ESP32Servo/theta` → updates servo angle
 - `ESP32Servo/speed` → updates servo speed
@@ -89,7 +89,7 @@ Libraries used:
 
 ---
 
-## 🚀 How to Run (Wokwi)
+## How to Run (Wokwi)
 1. Open [Wokwi](https://wokwi.com).
 2. Create a new ESP32 project.
 3. Copy the code from `sketch.ino` into the editor.
@@ -106,7 +106,7 @@ Libraries used:
 
 ---
 
-## 📊 Example Output
+## Example Output
 **Serial Monitor:**
 ```
     Connecting to WiFi...
@@ -125,7 +125,7 @@ Libraries used:
 ```
 
 
-## 🔮 Future Improvements
+## Future Improvements
 - Integrate with **ROS2 Control** for real-time robot control.
 - Add **endpoint calibration** via MQTT commands.
 - Extend torque simulation with real sensor feedback.
